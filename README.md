@@ -46,7 +46,7 @@ When it's installed, add it to the providers list in `config/app.php`
 Publish assets to your public folder
 
     php artisan vendor:publish --provider="Snowfire\Beautymail\BeautymailServiceProvider"
-    
+
 Configure your settings such as logo url and social links in `config/beautymail.php`
 
 ## Send your first Beauty mail
@@ -220,16 +220,16 @@ To change colours for the different segments, pass a colour variable:
 
 ## Lumen support
 
-In order to get this working on Lumen follow the installation instructions except for the `artisan vendor:publish` command, since Lumen does not provide this command. Instead you have to copy the assets folder from `vendor/snowfire/beautymail/public/` to the public folder in your Lumen project manually.
+In order to get this working on Lumen follow the installation instructions except for the `artisan vendor:publish` command, since Lumen does not provide this command. Instead you have to copy the assets folder from `vendor/rafaelpouzada/beautymail/public/` to the public folder in your Lumen project manually.
 
 Make sure to also put the `beautymail.php` config file in the `config` folder (default available in `src/config/settings.php`)
 
 ### Enable mailing in Lumen
 
-After this you will need to install and configure `illuminate/mailer` with: 
+After this you will need to install and configure `illuminate/mailer` with:
 
     composer require illuminate/mail
-   
+
 and add this to your `bootstrap/app.php`:
 
     $app->withFacades();
@@ -247,7 +247,7 @@ In order to get Beautymail working on Lumen you need to add the following to you
 
     // Enable config for beautymail
     $app->configure('beautymail');
-    
+
     // Provide class alliases to resolve Request and Config
     class_alias(\Illuminate\Support\Facades\Request::class, "\Request");
     class_alias(\Illuminate\Support\Facades\Config::class, "\Config");
