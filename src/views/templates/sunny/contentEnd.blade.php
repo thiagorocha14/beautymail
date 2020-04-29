@@ -7,5 +7,5 @@
 	<td class="w40" width="40"></td>
 </tr>
 <tr>
-	<td colspan="3" height="30"></td>
+	<td colspan="3" height="10"></td>
 </tr>

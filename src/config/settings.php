@@ -4,16 +4,14 @@ return [
 
     // These CSS rules will be applied after the regular template CSS
 
-    /*
-        'css' => [
-            '.button-content .button { background: red }',
-        ],
-    */
+    // 'css' => [
+    //     '.button-content .button { background-color: #15396B }',
+    // ],
 
     'colors' => [
 
         'highlight' => '#004ca3',
-        'button'    => '#004cad',
+        'button'    => '#15396B',
 
     ],
 

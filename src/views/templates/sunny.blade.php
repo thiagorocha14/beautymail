@@ -86,14 +86,8 @@
 						<td>
 							<table width="640" class="w640" align="center" cellpadding="0" cellspacing="0">
 								<tr>
-									<td class="w50" width="50"></td>
-									<td class="w410" width="410">
-										@if (isset($reminder))
-											<p id="permission-reminder" class="footer-content-left" align="left">{!! $reminder !!}</p>
-										@endif
-									</td>
-									<td valign="top">
-										<table align="right">
+									<td colspan="3" valign="top">
+										<table align="center">
 											<tr>
 												<td colspan="2" height="10"></td>
 											</tr>
@@ -116,8 +110,17 @@
 											</tr>
 										</table>
 									</td>
-									<td class="w15" width="15"></td>
-								</tr>
+                                </tr>
+
+                                <tr>
+                                    <td class="w50" width="50"></td>
+									<td class="w410" width="410">
+										@if (isset($reminder))
+											<p id="permission-reminder" class="footer-content-left" align="left">{!! $reminder !!}</p>
+										@endif
+                                    </td>
+                                    <td class="w15" width="15"></td>
+                                </tr>
 
 							</table>
 						</td>

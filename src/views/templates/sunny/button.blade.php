@@ -6,7 +6,7 @@
             <tr class="large_only"><td class="w560" height="15" width="560"></td></tr>
             <tr>
                 <td class="w560" width="560">
-                    <div class="button-content" align="center">
+                    <div class="button-content" align="center" style=" background-color:{{ Config::get('beautymail.colors.button', '#15396B') }};">
                         <a href="{{ $link }}" class="button">{{ $title }}</a>
                     </div>
                 </td>
