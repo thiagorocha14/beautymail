@@ -29,9 +29,11 @@ return [
             'height' => '',
         ],
 
-        'twitter'  => null,
-        'facebook' => null,
-        'flickr'   => null,
+        'twitter'       => null,
+        'facebook'      => null,
+        'flickr'        => null,
+        'instagram'     => null,
+        'linkedin'      => null,
     ],
 
 ];

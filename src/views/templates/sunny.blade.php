@@ -98,12 +98,20 @@
 												<td colspan="2" height="10"></td>
 											</tr>
 											<tr>
-												@if (isset($twitter))
-													<td><a href="https://twitter.com/{{ $twitter }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/twitter.png" alt="Twitter" height="25" width="25" style="border:0" /></a></td>
-												@endif
-
 												@if (isset($facebook))
-													<td><a href="https://facebook.com/{{ $facebook }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/fb.png" alt="Facebook" height="25" width="25" style="border:0" /></a></td>
+													<td><a href="{{ $facebook }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/fb.png" alt="Facebook" height="25" width="25" style="border:0" /></a></td>
+                                                @endif
+
+                                                @if (isset($twitter))
+													<td><a href="{{ $twitter }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/twitter.png" alt="Twitter" height="25" width="25" style="border:0" /></a></td>
+                                                @endif
+
+                                                @if (isset($instagram))
+													<td><a href="{{ $instagram }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/instagram.png" alt="Instagram" height="25" width="25" style="border:0" /></a></td>
+                                                @endif
+
+                                                @if (isset($linkedin))
+													<td><a href="{{ $linkedin }}"><img src="{{ Request::getSchemeAndHttpHost() }}/vendor/beautymail/assets/images/ark/linkedin.png" alt="LinkedIn" height="25" width="25" style="border:0" /></a></td>
 												@endif
 											</tr>
 										</table>
