@@ -1,12 +1,12 @@
 {
-    "name": "rafaelpouzada/beautymail",
+    "name": "thiagorocha14/beautymail",
     "description": "Send beautiful html emails with Laravel",
 	"keywords": ["laravel", "html", "email"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rafael Pouzada",
-            "email": "rafaelmpouzada@gmail.com"
+            "name": "Thiago Rocha",
+            "email": "thiagormnb@gmail.com"
         }
     ],
     "require": {
